@@ -4,7 +4,7 @@ Repositório de apoio para post do meu blog, sobre graceful shutdown. A ideia é
 <br>
 
 ### **Como iniciar a aplicação:**
-Primeiro vá até o arquivo `datasource.js` e altere os valores na variável `connectionInfos` para os dados de acesso do seu banco de dados. Depois disso execute um dos comandos abaixo:
+Primeiro vá até o arquivo `src/datasource.js` e altere os valores na variável `connectionInfos` para os dados de acesso do seu banco de dados. Depois disso execute um dos comandos abaixo:
 
 ```
 npm start
