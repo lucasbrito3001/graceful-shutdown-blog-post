@@ -6,7 +6,6 @@ const AppServer = require('./server');
 const app = express();
 
 app.get('/', (req, res) => {
-    console.log("ENTER")
     setTimeout(() => {
         res.status(200).send('Hello world')
     }, 5000)
