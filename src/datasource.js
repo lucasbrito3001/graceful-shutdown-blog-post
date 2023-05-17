@@ -10,7 +10,7 @@ class DataSourceConnection {
         const connectionInfos = {
             database: 'mysql',
             username: 'root',
-            password: 'Root0527#',
+            password: 'root',
             host: 'localhost',
             dialect: 'mysql'
         }

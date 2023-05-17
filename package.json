@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:simple": "node ./src/simple/index.js",
-    "start:organized": "node ./src/organized/index.js"
+    "start:organized": "node ./src/index.js"
   },
   "keywords": [],
   "author": "",

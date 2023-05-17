@@ -13,9 +13,7 @@ app.get('/', (req, res) => {
 
 app.start = app.listen
 
-// const httpServer = {
-//     start: app.listen
-// }
+const httpServer = app
 
 const dataSource = {
     connect: (connectionInfos) => {
@@ -35,7 +33,7 @@ const dataSource = {
 
 ;(async () => {
     const dataSourceConn = new DataSourceConnection(dataSource)
-    const appServer = new AppServer(app, dataSourceConn)
+    const appServer = new AppServer(httpServer, dataSourceConn)
     
     await appServer.start()
     
