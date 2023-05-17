@@ -1,7 +1,7 @@
 class AppServer {
     httpServer = null
     dataSourceConn = null
-    PORT = process.env.PORT || 3000
+    PORT = 3000
     #server = null
 
     constructor(httpServer, dataSourceConn) {
